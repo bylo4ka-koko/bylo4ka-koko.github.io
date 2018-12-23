@@ -3,9 +3,27 @@ body{
 	font-family: 'Pacifico', cursive;
 	font-size: 16px;
 }
+h1{
+	font-size: 80px;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.btn{
+	display: block;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #000;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 15px 25px;
+	margin-top: 50px;
+	transition: 1s;
+}
 .main{
 	height: 100vh;
-	background-color: #FF9B18;
+	background-color: #339966;
 }
 .wrapper{
 	max-width: 1170px;
@@ -14,6 +32,19 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.section_header{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 150px;
+	margin-bottom: 45px;
+}
+.section_header h2{
+	font-size: 30px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 .header{
 	display: flex;
@@ -29,16 +60,80 @@ body{
 	margin-left: 80px;
 }
 .menu li a{
-	color: #FF1818;
+	color: purple;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 22px;
 	font-weight: 500;
 }
 .menu li a:hover{
-	color: blue;
+	color: #33ccff;
 }
 .logo{
 	max-width: 100%;
 	height: auto;
+	width: 200px;
+}
+.main_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #00ff99;
+}
+.main_text span{
+font-size: 25px;
+text-transform: uppercase;
+}
+.main-text a{
+	color: #fff;
+}
+.main_text a:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: #339966;
+}
+.main_arrow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.main_arrow a{
+	color: #fff;
+	font-size: 50px;
+	transition: 1s;
+}
+.main_arrow a:hover{
+	color: #000;
+}
+.advantages_contetnt{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 70px;
+	transition: 1s;
+	text-align: center;
+    line-height: 32px;
+}
+.item:hover{
+	transform: scale(1.2);
+}
+.item i{
+	font-size: 12rem;
+	color: #456789
+}
+.item span{
+	font-size: 15px;
+	color: #000;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-top: 50px;
+	font-family: sans-serif;
 }
